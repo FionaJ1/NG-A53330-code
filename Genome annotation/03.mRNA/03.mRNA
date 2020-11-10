@@ -1,0 +1,4 @@
+./infernal-1.1rc4-linux-intel-gcc/binaries/cmsearch --cpu 20 ./Rfam.cm.1_1//miRNA.DB/Rfam.cm.1_1.miRNA ./genome.fa.60 >genome.fa.miRNA
+./tRNAscan-SE/bin/tRNAscan-SE -o ./genome.fa.60.tRNA -f ./genome.fa.60.tRNA.structure  ./genome.fa.60
+./infernal-1.1rc4-linux-intel-gcc/binaries/cmsearch --cpu 20 ./database/Rfam.cm.1_1//snRNA.DB/Rfam.cm.1_1.snRNA ./genome.fa.60 >genome.fa.snRNA
+./infernal-1.1rc4-linux-intel-gcc/binaries/cmsearch --cpu 20 ./database/Rfam.cm.1_1//miRNA.DB/Rfam.cm.1_1.miRNA ./genome.fa.60 >genome.fa.miRNA
